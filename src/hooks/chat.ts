@@ -1,7 +1,7 @@
 //This file defines a custom React hook called useChat. Its job is to manage the chat
 //state, handle sending user messages to the backend, update the UI
 // with new messages, and control the “thinking” indicator.
-// It’s the main stateful logic for the chat UI.
+// It’s the main stateful logic for the chat UI...
 
 import { useEffect, useRef, useState } from 'react';
 
