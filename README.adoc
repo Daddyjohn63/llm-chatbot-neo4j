@@ -53,3 +53,8 @@ ISSUE FOUND BY JOHN PAUL
 Had to force upgrade to some packages due to security and deprecation issues.
 In answer-chain-generation.ts import of import { BaseLanguageModel } from "langchain/base_language"; was wrong it should be import { BaseLanguageModel } from '@langchain/core/language_models/base';  This effects test file too.
 OPENAI import was missing from import { OpenAI } from '@langchain/openai';
+
+rephrase-question.ts import inccorect 
+import { BaseChatModel } from "langchain/chat_models/base";
+should be
+import { BaseChatModel } from "@langchain/core/language_models/chat_models";
