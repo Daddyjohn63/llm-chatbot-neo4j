@@ -31,8 +31,8 @@ export async function initGraph(): Promise<Neo4jGraph> {
  *
  * @returns {Promise<void>}
  */
-export async function close(): Promise<void> {
-  if (graph) {
-    await graph.close();
-  }
-}
+// export async function close(): Promise<void> {
+//   if (graph) {
+//     await graph.close();
+//   }
+// }
